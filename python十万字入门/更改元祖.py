@@ -1,0 +1,33 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/23
+Èº£º970353786
+"""
+x = ("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+y = list(x)
+y[1] = "Ë§¸ç"
+x = tuple(y)
+print(x)
+
+
+thistuple = ("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+y = list(thistuple)
+y.append("°®Äã")
+thistuple = tuple(y)
+print(thistuple)
+
+thistuple = ("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+y = ("°®Äã",)
+thistuple += y
+print(thistuple)
+
+thistuple = ("´¨´¨²ËÄñ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+y = list(thistuple)
+y.remove("´¨´¨²ËÄñ")
+thistuple = tuple(y)
+print(thistuple)
+
+this = ("´¨´¨²ËÄñ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+del this
+print(this)

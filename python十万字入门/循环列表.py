@@ -1,0 +1,19 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/23
+Èº£º970353786
+"""
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ","´¨´¨ËÄºÅ"]
+for i in mylist:
+    print(i)
+
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ","´¨´¨ËÄºÅ"]
+for i in range(len(mylist)):
+    print(mylist[i])
+
+
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ","´¨´¨ËÄºÅ"]
+i = 0
+while i < len(mylist):
+  print(mylist[i])

@@ -1,0 +1,22 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/22
+Èº£º970353786
+"""
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ"]
+print(mylist[0])
+
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ"]
+print(mylist[-1])
+
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ"]
+print(mylist[1:3])
+
+mylist = ["´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ"]
+print(mylist[-3:-1])
+
+
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")

@@ -1,0 +1,33 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/22
+Èº£º970353786
+"""
+
+# x = "´¨´¨"
+# def myfunc():
+#   print("Ë§¸çÊÇ " + x)
+# myfunc()
+
+
+# x = "awesome"
+#
+# def myfunc():
+#   x = "fantastic"
+#   print("Python is " + x)
+#
+# myfunc()
+#
+# print("Python is " + x)
+
+
+x = "Ë§¸ç"
+
+def myfunc():
+  global x
+  x = "²ËÄñ"
+
+myfunc()
+
+print("´¨´¨" + x)

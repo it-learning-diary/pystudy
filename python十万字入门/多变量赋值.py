@@ -1,0 +1,22 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/22
+Èº£º970353786
+"""
+x, y, z = "´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ"
+print(x)
+print(y)
+print(z)
+
+x = y = z = "´¨´¨²ËÄñ"
+print(x)
+print(y)
+print(z)
+
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)

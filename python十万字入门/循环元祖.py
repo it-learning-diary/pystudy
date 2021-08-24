@@ -1,0 +1,19 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/24
+Èº£º970353786
+"""
+thistuple = ("´¨´¨²ËÄñ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+for i in thistuple:
+    print(i)
+    
+thistuple = ("´¨´¨²ËÄñ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+for i in range(len(thistuple)):
+    print(thistuple[i])
+
+thistuple = ("´¨´¨²ËÄñ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1

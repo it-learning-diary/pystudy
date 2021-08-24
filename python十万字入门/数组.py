@@ -1,0 +1,29 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/24
+Èº£º970353786
+"""
+chuan = ["´¨´¨", "²ËÄñ", "Ë§¸ç"]
+te=chuan[0]
+print(te)
+
+chuan = ["´¨´¨", "²ËÄñ", "Ë§¸ç"]
+chuan[0]='¸ß¸»Ë§'
+# print(chuan)
+print(len(chuan))
+
+
+chuan = ["´¨´¨", "²ËÄñ", "Ë§¸ç"]
+for i in chuan:
+    print(i)
+
+chuan = ["´¨´¨", "²ËÄñ", "Ë§¸ç"]
+chuan.append('ÉÏº£')
+print(chuan)
+
+chuan = ["´¨´¨", "²ËÄñ", "Ë§¸ç"]
+chuan.pop(1)
+print(chuan)
+chuan.remove('Ë§¸ç')
+print(chuan)

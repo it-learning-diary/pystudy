@@ -1,0 +1,30 @@
+# coding=gbk
+"""
+×÷Õß£º´¨´¨
+Ê±¼ä£º2021/8/23
+Èº£º970353786
+"""
+mytuple = ("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ")
+# print(mytuple)
+print(mytuple[0])
+
+mytuple = ("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+# print(mytuple)
+print(len(mytuple))
+
+mytuple = ("´¨´¨Ò»ºÅ", )
+print(type(mytuple))
+mytuple = ("´¨´¨Ò»ºÅ")
+print(type(mytuple))
+
+
+tuple1 = ("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ')
+tuple2 = (1, 8, 5, 9, 3)
+tuple3 = (True, False, False)
+
+tuple4 = ("´¨´¨Ò»ºÅ", 34, True, 40, "Ë§¸ç")
+
+tuple5 = tuple(("´¨´¨Ò»ºÅ", "´¨´¨¶þºÅ", "´¨´¨ÈýºÅ",'´¨´¨Ò»ºÅ'))
+print(tuple5)
+
+

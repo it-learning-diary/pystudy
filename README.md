@@ -5,3 +5,7 @@
 私人交流群，非诚勿扰：
 
 ![158350250](https://user-images.githubusercontent.com/62045791/130698163-a480175f-c9e1-40d8-8e83-7f2a16a08d59.png)
+
+群里有大量资料以及交流
+![image](https://user-images.githubusercontent.com/62045791/130752685-9ad40034-27df-4323-89b0-75cb4a2c8867.png)
+
